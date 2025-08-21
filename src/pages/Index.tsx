@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Features from "@/components/Features";
 import TargetAudience from "@/components/TargetAudience";
 import CallToAction from "@/components/CallToAction";
+import Demo from "@/components/Demo";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <Hero />
         <Features />
         <TargetAudience />
+        <Demo />
         <CallToAction />
       </main>
     </div>

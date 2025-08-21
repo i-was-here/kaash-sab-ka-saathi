@@ -25,10 +25,10 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg font-semibold">
+              <Button variant="hero" size="lg" className="text-lg font-semibold" onClick={() => window.open("https://wa.me/918618791312", "_blank")}>
                 Get Started on WhatsApp
               </Button>
-              <Button variant="outline" size="lg" className="text-lg">
+              <Button variant="outline" size="lg" className="text-lg" onClick={() => document.getElementById("demo")?.scrollIntoView({ behavior: "smooth" })}>
                 Watch Demo
               </Button>
             </div>

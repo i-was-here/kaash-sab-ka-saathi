@@ -30,7 +30,7 @@ const TargetAudience = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-warm">
+    <section id="audience" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">

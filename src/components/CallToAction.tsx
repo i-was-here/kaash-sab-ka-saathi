@@ -15,11 +15,11 @@ const CallToAction = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg font-semibold px-8 shadow-glow">
+            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg font-semibold px-8 shadow-glow" onClick={() => window.open("https://wa.me/918618791312", "_blank")}>
               <MessageCircle className="w-5 h-5 mr-2" />
               Start on WhatsApp
             </Button>
-            <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 text-lg font-semibold px-8">
+            <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 text-lg font-semibold px-8" onClick={() => window.open("tel:918618791312")}>
               <Phone className="w-5 h-5 mr-2" />
               Call & Talk to ARP
             </Button>

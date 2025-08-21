@@ -29,7 +29,7 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <Button variant="hero" className="hidden md:flex">
+          <Button variant="hero" className="hidden md:flex" onClick={() => window.open("https://wa.me/918618791312", "_blank")}>
             Get Started
           </Button>
         </div>
