@@ -6,9 +6,9 @@
   "homepage": "https://i-was-here.github.io/kaash-sab-ka-saathi",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
